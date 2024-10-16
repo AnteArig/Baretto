@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { MenuComponent } from './menu/menu.component';
 import { MatTabsModule } from '@angular/material/tabs';
+import { ContactsComponent } from './contacts/contacts.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent
+    MenuComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,
