@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { MenuComponent } from './menu/menu.component';
 import { MatTabsModule } from '@angular/material/tabs';
+import { ContactsComponent } from './contacts/contacts.component';
 import { CocktailsComponent } from './cocktails/cocktails.component';
 
 
@@ -13,6 +14,7 @@ import { CocktailsComponent } from './cocktails/cocktails.component';
   declarations: [
     AppComponent,
     MenuComponent,
+    ContactsComponent,
     CocktailsComponent
   ],
   imports: [
