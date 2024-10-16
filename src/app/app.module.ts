@@ -7,13 +7,15 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { MenuComponent } from './menu/menu.component';
 import { MatTabsModule } from '@angular/material/tabs';
 import { ContactsComponent } from './contacts/contacts.component';
+import { CocktailsComponent } from './cocktails/cocktails.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    ContactsComponent
+    ContactsComponent,
+    CocktailsComponent
   ],
   imports: [
     BrowserModule,
