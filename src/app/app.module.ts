@@ -9,6 +9,10 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { ContactsComponent } from './contacts/contacts.component';
 import { CocktailsComponent } from './cocktails/cocktails.component';
 import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './footer/footer.component';
+
+
+
 
 
 @NgModule({
@@ -17,7 +21,8 @@ import { HomeComponent } from './home/home.component';
     MenuComponent,
     ContactsComponent,
     CocktailsComponent,
-    HomeComponent
+    HomeComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

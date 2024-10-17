@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { CocktailsComponent } from './cocktails/cocktails.component';
-
+import { FooterComponent } from './footer/footer.component';
 const routes: Routes = [
 
   {
