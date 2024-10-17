@@ -8,6 +8,7 @@ import { MenuComponent } from './menu/menu.component';
 import { MatTabsModule } from '@angular/material/tabs';
 import { ContactsComponent } from './contacts/contacts.component';
 import { CocktailsComponent } from './cocktails/cocktails.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { CocktailsComponent } from './cocktails/cocktails.component';
     AppComponent,
     MenuComponent,
     ContactsComponent,
-    CocktailsComponent
+    CocktailsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
